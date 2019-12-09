@@ -1,5 +1,5 @@
 #!/bin/bash 
-WORK_PATH='/usr/projects/font'
+WORK_PATH='/app/auto/font'
 cd $WORK_PATH
 echo "先清除老代码"
 git reset --hard origin/master
