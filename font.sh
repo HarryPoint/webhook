@@ -6,6 +6,8 @@ git reset --hard origin/master
 git clean -f
 echo "拉取新代码"
 git pull origin master
+echo "安装依赖"
+npm install
 echo "编译build"
 npm run build
 echo "开始执行构建后端项目:back为docker镜像名称 1.0为版本号"
